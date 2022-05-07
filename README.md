@@ -36,7 +36,9 @@ This is sample to run on EC2.
 3. SSH and run
 
 `aws ssm start-session --target i-xxxxxxxxxxxxxxxxx`
+
 `cd ~`
+
 `java -jar ~/application.jar`
 4. access from browser
 
